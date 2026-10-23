@@ -1,0 +1,26 @@
+{
+  "name": "trilio-site-recovery",
+  "version": "0.1.0",
+  "description": "Helps coding agents set up and operate Trilio Site Recovery for Kubernetes.",
+  "author": {
+    "name": "Trilio"
+  },
+  "homepage": "https://github.com/triliodata/tsr-k8s-skill",
+  "repository": "https://github.com/triliodata/tsr-k8s-skill",
+  "license": "Apache-2.0",
+  "keywords": ["trilio", "site-recovery", "kubernetes", "disaster-recovery", "failover"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "Trilio Site Recovery",
+    "shortDescription": "Set up and operate Trilio Site Recovery for Kubernetes",
+    "longDescription": "Guides setup, DR configuration, failover and failback with Trilio Site Recovery, using the official TSR docs and asking before any change to a cluster.",
+    "developerName": "Trilio",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://trilio.io",
+    "defaultPrompt": [
+      "Help me understand how to use Trilio Site Recovery for Kubernetes."
+    ]
+  }
+}

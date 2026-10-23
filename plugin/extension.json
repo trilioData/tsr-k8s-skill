@@ -1,0 +1,4 @@
+{
+  "name": "trilio-site-recovery",
+  "description": "Helps Junie set up and operate Trilio Site Recovery for Kubernetes."
+}

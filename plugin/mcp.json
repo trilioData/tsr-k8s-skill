@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "trilio-site-recovery-docs": {
+      "type": "streamable-http",
+      "url": "https://docs-tsr.trilio.io/api/mcp/mark-reid/trilio-site-recovery-for-kubernetes"
+    }
+  }
+}
