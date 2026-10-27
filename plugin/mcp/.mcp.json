@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "trilio-site-recovery-docs": {
+      "url": "https://docs-tsr.trilio.io/api/mcp/mark-reid/trilio-site-recovery-for-kubernetes"
+    }
+  }
+}

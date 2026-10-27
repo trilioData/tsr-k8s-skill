@@ -1,0 +1,20 @@
+{
+  "name": "trilio-codex-marketplace",
+  "interface": {
+    "displayName": "Trilio Agent Plugins"
+  },
+  "plugins": [
+    {
+      "name": "trilio-site-recovery",
+      "source": {
+        "source": "local",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

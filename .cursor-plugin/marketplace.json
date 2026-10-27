@@ -1,0 +1,16 @@
+{
+  "name": "trilio-cursor-marketplace",
+  "owner": {
+    "name": "Trilio"
+  },
+  "metadata": {
+    "description": "Marketplace for Trilio coding agent extensions",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "trilio-site-recovery",
+      "source": "./plugin"
+    }
+  ]
+}
